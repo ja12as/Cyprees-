@@ -1,0 +1,30 @@
+{
+  "name": "cypressejercicoscasa",
+  "version": "1.0.0",
+  "description": "E2E Testing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ja12as/TestingCypressCasa.git"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "testing",
+    "cypress"
+  ],
+  "author": "Jose Armando Avendaño Saucedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ja12as/TestingCypressCasa/issues"
+  },
+  "homepage": "https://github.com/ja12as/TestingCypressCasa#readme",
+  "devDependencies": {
+    "cypress": "^13.3.2"
+  }
+}
